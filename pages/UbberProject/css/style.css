@@ -1,0 +1,792 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/* Elemente de baza */
+
+section .top {
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
+
+section .top .sep-button {
+  background-color: #000;
+  padding: 7px 11px;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline;
+}
+
+section .top h2 {
+  color: #222;
+  font-size: 38px;
+  text-transform: uppercase;
+  margin-top: 39px;
+}
+
+section .top p {
+  color: #222;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+/* Nav Bar */
+
+nav {
+  background-color: #212121;
+}
+
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+  color: #fff;
+  padding: 18px 0;
+  position: relative;
+
+  width: 100%;
+  text-align: center;
+}
+
+nav ul li::after {
+  content: "";
+  background-image: url(../img/separator.png);
+  background-size: contain;
+
+  position: absolute;
+
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 2px;
+  height: 30px;
+}
+
+nav ul li:last-child::after {
+  display: none;
+}
+
+.mobile-button {
+  padding: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.mobile-button>div {
+  width: 50px;
+}
+
+/* Header */
+
+header {
+  background-image: url(../img/header_bg.png);
+  background-size: cover;
+
+  color: #fff;
+  padding-bottom: 186px;
+}
+
+/* Header Nav Top */
+
+header .top {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+header .top .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 19px 0;
+}
+
+header .logo {
+  width: 285px;
+}
+
+header .logo p {
+  margin-top: 5px;
+}
+
+header .call-button {
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+
+  text-align: right;
+  font-size: 12px;
+}
+
+header .call-button a {
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header .call-button button {
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  padding: 17px 22px;
+
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+/* Header Content */
+
+header>.container {
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 60px;
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+
+header h1 span {
+  font-size: 36px;
+}
+
+header>.container .text {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+header>.container button {
+  margin-top: 115px;
+
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  padding: 22px 40px;
+  border: 0;
+
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Causes Section */
+#causes {
+  padding-bottom: 64px;
+}
+
+#causes .causes-item {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+
+  margin-top: 26px;
+}
+
+#causes img {
+  width: 50%;
+}
+
+#causes .image-side div {
+  width: 116px;
+  height: 116px;
+  background-color: #1eacc7;
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#causes .text-side {
+  line-height: 21px;
+}
+
+#causes .text-side h4 {
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#causes .text-side p {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+
+  margin-top: 15px;
+}
+
+/* Section Posibilities  */
+
+#posibilities {
+  background-image: url(../img/posib_bg.png);
+  background-size: cover;
+
+  padding-bottom: 80px;
+}
+
+#posibilities .posib-item div {
+  background-image: url(../img/posib/posib_1.png);
+  padding-top: 82px;
+
+  width: 320px;
+  height: 280px;
+
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+  position: relative;
+  margin-bottom: 19px;
+}
+
+#posibilities .posib-item:nth-child(2) div {
+  background-image: url(../img/posib/posib_2.png);
+}
+
+#posibilities .posib-item:nth-child(3) div {
+  background-image: url(../img/posib/posib_3.png);
+}
+
+#posibilities .posib-item:nth-child(4) div {
+  background-image: url(../img/posib/posib_4.png);
+}
+
+#posibilities .posib-item:nth-child(5) div {
+  background-image: url(../img/posib/posib_5.png);
+}
+
+#posibilities .posib-item:nth-child(6) div {
+  background-image: url(../img/posib/posib_6.png);
+}
+
+#posibilities .posib-item div button {
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 29px;
+  height: 29px;
+  background-color: #000;
+  border: none;
+  border-radius: 50px;
+
+  font-size: 25px;
+
+  color: #1eacc7;
+}
+
+/* Car Section */
+#car {
+  background-image: url(../img/car_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-bottom: 138px;
+  text-align: center;
+}
+
+#car .top h2,
+#car .top p {
+  color: #fff;
+}
+
+#car .top .sep-button {
+  background-color: #fff;
+  color: #000000;
+}
+
+#car .container div {
+  width: 480px;
+  margin: 120px auto 54px auto;
+}
+
+#car .container p {
+  color: #222;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* a cincea sectiune */
+/* a cincea sectiune */
+
+#third-section {
+  padding-bottom: 90px;
+}
+
+.conditions {
+  justify-content: center;
+  text-align: center;
+}
+
+/* titlu */
+.conditions button {
+  background-color: black;
+  color: #fff;
+  padding: 5px 11px;
+  margin-top: 68px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.conditions h2 {
+  color: #222;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 28px;
+  margin-bottom: 37px;
+}
+
+/* continut colonite */
+.child-cond h2 {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 75px;
+}
+
+.child-cond ul {
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 75px;
+}
+
+.child-cond li {
+  color: #222;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.child-cond li::before {
+  content: "";
+  background-image: url(../img/check_blue\ 1.png);
+  background-size: contain;
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.child-cond span {
+  color: #1ca8c3;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  padding-left: 75px;
+}
+
+.redlist h2 {
+  color: #ff5656;
+  margin-top: 61px;
+}
+
+.redlist li::before {
+  background-image: url(../img/check_red\ 1.png);
+}
+
+/* sfirsit continut colonite */
+
+/* map section */
+
+#fourth-section {
+  background-color: #080816;
+  width: 100%;
+}
+
+.container-photo {
+  background-image: url(../img/world_bg.png);
+  margin: 3px 240px 1px 240px;
+  height: 716px;
+  text-align: center;
+  color: #fff;
+}
+
+#fourth-section .container-photo button {
+  background-color: #fff;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 400;
+  height: 25px;
+  width: 75px;
+  text-align: center;
+  margin-top: 48px;
+  text-transform: uppercase;
+  padding: 5px 5px;
+}
+
+#fourth-section .container-photo h1 {
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 26px;
+}
+
+#fourth-section .container-photo p {
+  padding-top: 2px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#fourth-section .container-photo span p {
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 457px;
+}
+
+/* end map section */
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 45px 15px;
+  position: relative;
+}
+
+.first-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+
+.second-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer .middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.social-media {
+  background-image: url(../img/border.png);
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media img {
+  width: 50%;
+
+}
+
+.social-display {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+
+}
+
+footer .middle-parent {
+  align-self: center;
+}
+
+.center img {
+  height: 7px;
+  width: 301px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+footer .middle h4 {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 31px;
+}
+
+footer span {
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer .middle p {
+  color: #999;
+  font-size: 11px;
+  color: #999;
+  padding: 10px 0 10px 0;
+
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.social-links div {
+  width: 300px;
+
+}
+
+@media only screen and (max-width: 1200px) {
+  #posibilities .posib-item div {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  nav ul li {
+    font-size: 14px;
+  }
+
+  header .logo {
+    width: 230px;
+  }
+
+  header .logo p {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 45px;
+  }
+
+  header h1 span {
+    font-size: 27px;
+  }
+
+  section .top p {
+    font-size: 14px;
+  }
+
+  .container-photo {
+    margin: 0;
+  }
+
+  .social-links div {
+    width: 245px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-button {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 110px;
+  }
+
+  header .call-button {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  header .call-button button {
+    padding: 10px 22px;
+  }
+
+  header h1 {
+    font-size: 34px;
+  }
+
+  header h1 span {
+    font-size: 20px;
+  }
+
+  section .top h2 {
+    font-size: 30px;
+  }
+
+  .posib-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #posibilities .posib-item div {
+    font-size: 20px;
+  }
+
+  .child-cond h2 {
+    margin-top: 35px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 175px;
+
+  }
+
+  footer .middle {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  header .logo img {
+    width: 180px;
+  }
+
+  header .call-button a {
+    font-size: 18px;
+  }
+
+  header .call-button button {
+    font-size: 10px;
+  }
+
+  header .container h1 {
+    font-size: 22px;
+  }
+
+  header .container span {
+    font-size: 15px;
+  }
+
+  header .container.text {
+    font-size: 12px;
+  }
+
+  #causes .top h2 {
+    font-size: 24px;
+  }
+
+  footer .midle .first-center h4 {
+    font-size: 12px;
+  }
+
+  footer .middle .second-center p {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  #car .container img {
+    width: 60%;
+  }
+
+  #causes .container .row .causes-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    margin: 0 50px 0 50px;
+  }
+
+  #car .container img {
+    width: 60%;
+    margin-right: 125px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #car .container {
+    position: relative;
+  }
+
+  #car .container img {
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+   
+  }
+  #car .top h2{
+    font-size: 18px;
+  }
+  #car .top p{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #car .container img {
+    margin-right: 150px;
+  }
+  header .top .logo img{
+    width: 125px;
+  }
+  header .top .logo p{
+    font-size: 8px;
+  }
+  header .call-button a{
+    font-size: 10px;
+  }
+  header .call-button button{
+    font-size: 6px;
+  }
+  header .container button{
+    font-size: 10px;
+  }
+  #third-section .container h2{
+    font-size: 20px;
+  }
+  #third-section .container ul li, #third-section .container span{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #car .container img {
+    position: absolute;
+    left: 45px;
+    bottom: 75px;
+   
+  }
+}

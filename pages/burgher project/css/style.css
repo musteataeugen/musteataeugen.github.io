@@ -1,0 +1,125 @@
+* {    padding: 0;
+    margin: 0;}
+nav{position: fixed;
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    box-shadow: -3px 3px 15px -4px rgba(0,0,0,0.75);   
+    padding: 10px 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;}
+nav button{border: 0;
+    background-color: transparent;
+    padding: 5px 10px;}
+nav button a{color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 4px;}
+nav button:hover{background-color: rgb(204, 200, 200);}
+nav .right-side{position: absolute;
+    top: 10px;
+    right: 55px;}
+header .container-header{height: 675px;
+background-image: url(../img/image.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 85% ;
+margin: 0 auto;
+position: relative;
+top: 0;}
+header .container-header h1{position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: gray;}
+
+img{width: 100%;}
+
+.container{width: 70%;
+    margin: 0 auto;}
+
+#about{margin-top: 50px;}
+
+#about .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;}
+
+#about .right-side,#about .left-side{
+    width: 450px;
+   display: flex;
+   flex-direction: column;
+    vertical-align: top;}
+
+#about .right-side{text-align: center;}
+
+#about .right-side h2{
+    margin-top: 15px;
+    font-size: 36px;
+    letter-spacing: 5px;}
+
+#about .right-side h4{
+    letter-spacing: 3px;}
+
+#about .right-side .first-p{margin-top: 15px;}
+p{text-align: left;}
+
+span{background-color: rgb(236, 236, 236);}
+
+.third-p{color: rgb(147, 145, 145);}
+
+#menu{margin-top: 50px;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;}
+
+#menu .right-side,#menu .left-side{
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;}
+
+#menu .right-side{
+    margin-left: 35px;
+    text-align: center;}
+    
+#menu .left-side h2{
+    margin-top: 15px;
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-align: center;}
+#menu .right-side{margin-top: 15px;}
+#menu .left-side h4{letter-spacing: 3px;}
+#menu .left-side h6{color: rgb(160, 159, 159);}
+#contact h4{color:  #607d8b;}
+#contact h2{letter-spacing: 4px;}
+#contact{
+    width: 750px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;}
+.p{text-align: center;}    
+input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;}
+button{border: none;
+          background-color: transparent;}
+button:hover{background-color: rgb(204, 200, 200);}
+button a{color: black;
+    text-decoration: none;
+    padding: 10px 20px;}
+    hr {
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+    }
