@@ -49,6 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
        
     });
 
+    const fakeAdd =document.querySelector('.promo__adv');
+    fakeAdd.remove();
+
 
     function createMovieList() {
         movieList.innerHTML = "";

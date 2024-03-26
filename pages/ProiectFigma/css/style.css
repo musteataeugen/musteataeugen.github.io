@@ -251,3 +251,53 @@ margin-top: 45px;}
 
  }
  footer p{ color: #888888;}
+ @media (max-width: 1400px){
+    #conteiner .text {
+        width: 33%;
+    }
+ }
+ @media (max-width: 1200px) {
+    .maintext p {
+        text-align: center;
+    }
+    #calc .container {
+        flex-direction: column;
+    }
+    #sfaturi .cont {
+        gap: 50px;
+    }
+ }
+ @media (max-width: 992px) {
+    header .maintext h2 {
+        font-size: 30px;
+    }
+    header .maintext h1 {
+        font-size: 55px;
+    }
+    header .butonas {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+ }
+ @media (max-width: 768px) {
+    #conteiner {
+        flex-direction: column;
+    }
+    #sfaturi .cont {
+        flex-direction: column;
+    }
+    #cadou p {
+        font-size: 20px;
+    }
+ }
+ @media (max-width: 576px) {
+    header .maintext h2 {
+        font-size: 22px;
+    }
+    header .maintext p {
+        font-size: 10px;
+    }
+    header .butonas {
+        padding: 2px 20px;
+    }
+ }
